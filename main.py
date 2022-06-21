@@ -14,6 +14,9 @@ def read_file_to_str(directory, filenames):
 
 # download nltk's punkt for punctuation etc.
 nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('maxent_ne_chunker')
+nltk.download('words')
 
 
 def tokenize(text, language):
@@ -71,7 +74,11 @@ def chi_squared(corpus_1, corpus_2, most_common_values):
 
     print(f"The Chi-sqared value is {chisquared}")
 
-
+print('--- German vs translation ---')
 chi_squared(german, french_ue, most_common_values=105)
-
+print('--- french vs translation ---')
 chi_squared(french_orig, french_ue, most_common_values=105)
+print('--- German vs french ---')
+chi_squared(german, french_orig, most_common_values=105)
+
+
