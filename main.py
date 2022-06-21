@@ -1,7 +1,6 @@
 import nltk
 
 
-
 def read_file_to_str(directory, filenames):
     '''Opens a directory that contains text files and appends those to a list of strings'''
     strings = []
@@ -28,14 +27,12 @@ def tokenize(text, language):
 # tokens = tokenize(test, 'german')
 
 
-# Todo 2.1: Characteristic Curves of Composition
 def composition(tokens, title):
     '''creates a curve of composition for a corpus of texts'''
     token_lengths = [len(token) for token in tokens]
     len_distr = nltk.FreqDist(token_lengths)
     print(len_distr)
     len_distr.plot(15, title=f'{title}')
-
 
 
 def run_all_comp(text, language, title):
@@ -71,9 +68,9 @@ def chi_squared(corpus_1, corpus_2, most_common_values):
         expected_corpus_1_count = joint_count * shared
         expected_corpus_2_count = joint_count * (1 - shared)
         chisquared += ((corpus_1_count - expected_corpus_1_count) * (
-                    corpus_1_count - expected_corpus_1_count) / expected_corpus_1_count)
+                corpus_1_count - expected_corpus_1_count) / expected_corpus_1_count)
         chisquared += ((corpus_2_count - expected_corpus_2_count) * (
-                    corpus_2_count - expected_corpus_2_count) / expected_corpus_2_count)
+                corpus_2_count - expected_corpus_2_count) / expected_corpus_2_count)
 
     print(f"The Chi-sqared value is {chisquared}")
 
