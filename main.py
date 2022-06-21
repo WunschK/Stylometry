@@ -24,9 +24,6 @@ def tokenize(text, language):
     return tokens
 
 
-# tokens = tokenize(test, 'german')
-
-
 def composition(tokens, title):
     '''creates a curve of composition for a corpus of texts'''
     token_lengths = [len(token) for token in tokens]
