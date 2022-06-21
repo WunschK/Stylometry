@@ -17,7 +17,7 @@ nltk.download('punkt')
 
 
 def tokenize(text, language):
-    '''Tokenises a given text (text) defined above and returns a list of token lengths'''
+    '''Tokenises a given text (text) defined above and returns a list of tokens (tokens)'''
     tokens = nltk.word_tokenize(text=text.lower(), language=f"{language}")
     # strip punctuation of the list of word tokens:
     tokens = ([token for token in tokens if any(c.isalpha() for c in token)])
@@ -36,7 +36,7 @@ def composition(tokens, title):
 
 
 def run_all_comp(text, language, title):
-    '''tokenizes a set of texts and creates a curve of composition for that text'''
+    '''tokenizes a set of texts and creates a curve of composition for these texts'''
     tokenize(text, language)
     composition(tokenize(text, language), title=f"{title}")
 
