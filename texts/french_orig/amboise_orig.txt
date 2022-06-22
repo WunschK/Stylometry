@@ -1,8 +1,4 @@
-Europäische Religionsfrieden DigitalEdikt von Amboise (19. März 1563)Bengt BüttnerMitarbeitKevin WunschSilke KalmerDigitale Edition gemäß TEI P5Akademie der Wissenschaften und der Literatur MainzUnter der Leitung von Irene Dingel und Thomas StäckerLeibniz-Institut für Europäische Geschichte MainzUniversitäts- und Landesbibliothek Darmstadthttp://lobid.org/organisation/DE-172013This file is licensed under the terms of the Creative Commons License CC-BY 4.0 (Attribution 4.0 International)Textgrundlage s. ggf. Einleitung.Europäische Religionsfrieden Digitalhttp://id.loc.gov/vocabulary/relators/ MARC Code List for Relators FranzösischCharles IXKönig RobertEstienne CatherinedeMédicisRegentin Charles I.deBourbonKardinal Louis IdeBourbonFürst Louis IIIdeBourbon CharlesdeBourbonFürst LouisdeGuise Claude IIdeLorraineHerzog AnnedeMontmorencyConnétable Jean IVdeBrosseHerzog Charles IerdeCosséMarschall von Frankreich ImbertdeLa PlatièreMarschall von Frankreich FranҫoisdeColigny LouisdePrévostMarschall von Frankreich PhilibertdeMarsilly Heinrich II.König  Florimond IIRobertet JeanDuTillet HuguesFromaget LiénardLe Sueur Claude II.de l’Aubespine Frankreich,
-                        KönigreichBourbon-l’ArchambaultRouenCondé-en-Brie, HerrschaftMontpensier, HerzogtumAuvergneLa
-                        Roche-sur-YonGuise, HerzogtumLothringen,
-                        HerzogtumAumale, HerzogtumMontmorency, HerzogtumÉtampesBrissac, GrafschaftColignyAndelotParisPeronneMontdidierRoyeLa
-                        RochelleAmboiseOrléansSaint-Germain-en-Laye  Edict Et Declaration    Par Le Roy  Charles IX. De Ce Nom,  sur la pacification des troubles de
+  Edict Et Declaration    Par Le Roy  Charles IX. De Ce Nom,  sur la pacification des troubles de
      ce Royaume ,le XIX iour de Mars,
      mil cinq cens  soixante deux.  Publié en la Cour de Parlement  à Paris,
 	 le  vingtseptieme iour dudict mois.  A   Paris,
@@ -184,13 +180,4 @@ Europäische Religionsfrieden DigitalEdikt von Amboise (19. März 1563)Bengt B�
 	 audict an: Il  est permis à Robert  Estienne son Imprimeur,
 	 d’imprimer ou faire imprimer, vendre & debiter ce  present Edict n’agueres faict pour la pacification des   de ce Royaume: Sans qu’aultres imprimeurs    le  puissent imprimer, ne faire imprimer  sans son , permißion &  consentement, de trois mois apres l’   d’iceluy par luy faicte: Sur peine aux contreuenants de
 	  confiscation de ce qu’ils en auroyent imprimé, & d’amende
-		 arbitraire.Fehlt  u.a., Édits, Edikt II, Datierung.Grotefend, ZeitrechnungGrotefendHermannZeitrechnung des Deutschen Mittelalters und der Neuzeit, Erster Band:
-                        GlossarHannover1891Jouanna, ParlementsJouannaArletteParlementsJouannaArlette u.a.La France de la Renaissance. Histoire et dictionnaireParis2001S. 993-995Barbicheu.a., ÉditsBarbicheBernard u.a.  L’édit de Nantes et ses antécédents (1562-1598). Édits de
-                        pacificationELEC 5Version vom 07.03.2018[Online]Boucher, OrdresBoucherJacquelineOrdres de chevalerieBélyLucienDictionnaire de l’Ancien Regime. Royaume de France XVIe-XVIIIe
-                            siècleParis1996S. 939fJouanna, PrincesJouannaArlettePrinces du sangBélyLucienDictionnaire de l’Ancien Regime. Royaume de France XVIe-XVIIIe
-                            siècleParis1996S. 1018fLabourdette, Grands officiersLabourdetteJean-FrançoisGrands officiers de la CouronneBélyLucienDictionnaire de l’Ancien Regime. Royaume de France XVIe-XVIIIe
-                            siècleParis1996S. 617-619Labourdette, Ducs et pairsLabourdetteJean-FrançoisDucs et pairs de FranceBélyLucienDictionnaire de l’Ancien Regime. Royaume de France XVIe-XVIIIe
-                            siècleParis1996S. 448-450Constant, BailliagesConstantJean-MarieBailliages et sénéschausséesBélyLucienDictionnaire de l’Ancien Regime. Royaume de France XVIe-XVIIIe
-                            siècleParis1996S. 121-123Limon, ChâteletLimonMarie-FrançoiseChâtelet de ParisBélyLucienDictionnaire de l’Ancien Regime. Royaume de France XVIe-XVIIIe
-                            siècleParis1996S. 252-254Marion, DictionnaireMarionMarcelDictionnaire des institutions de la France aux XVIIe et XVIIIe
-                        sièclesParis1923ELECÉditions en ligne de l'École des chartes
+		 arbitraire.Fehlt  u.a., Édits, Edikt II, Datierung.

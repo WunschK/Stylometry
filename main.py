@@ -1,4 +1,5 @@
 import nltk
+import matplotlib.pyplot as plt
 
 
 def read_file_to_str(directory, filenames):
@@ -30,9 +31,12 @@ def tokenize(text, language):
 def composition(tokens, title):
     '''creates a curve of composition for a corpus of texts'''
     token_lengths = [len(token) for token in tokens]
+    fig = plt.figure()
+    plt.gcf().subplots_adjust(bottom=0.15)
     len_distr = nltk.FreqDist(token_lengths)
-    print(len_distr)
     len_distr.plot(15, title=f'{title}')
+    plt.show()
+    fig.savefig(f'{title}.png')
 
 
 def run_all_comp(text, language, title):
@@ -42,12 +46,14 @@ def run_all_comp(text, language, title):
 
 
 # Create a string for all texts in the specified directories
-german = read_file_to_str('german', filenames=['augsburger_rf'])
-french_ue = read_file_to_str('french_ue', filenames=['amboise_ue'])
+german_without_augsburg = read_file_to_str('german', filenames=['declaratio_ferdinandea', 'frankfurter_anstand', 'nuernberger_anstand', 'passauer_vertrag', 'speyerer_reichsabschied', 'wormser_edikt'])
+german_with_augsburg = read_file_to_str('german', filenames=['augsburger_rf','declaratio_ferdinandea', 'frankfurter_anstand', 'nuernberger_anstand', 'passauer_vertrag', 'speyerer_reichsabschied', 'wormser_edikt'])
+french_ue = read_file_to_str('french_ue', filenames=['amboise_ue', 'beaulieu_ue', 'boulogne_ue', 'flex_ue', 'longjumeau_ue', 'nantes_ue', 'st_germain_1570_ue'])
 french_orig = read_file_to_str('french_orig', filenames=['amboise_orig'])
 
 # Create the Curves of Composition for the German texts (Module 1) and the French texts(Module 5)
-run_all_comp(german, 'german', title='german')
+run_all_comp(german_without_augsburg, 'german', title='german - without augsburger rf')
+run_all_comp(german_with_augsburg, 'german', title='german - with augsburger rf')
 run_all_comp(french_ue, 'german', title='frz_ue')
 run_all_comp(french_orig, 'french', title='frz_orig')
 
@@ -74,11 +80,16 @@ def chi_squared(corpus_1, corpus_2, most_common_values):
 
     print(f"The Chi-sqared value is {chisquared}")
 
-print('--- German vs translation ---')
-chi_squared(german, french_ue, most_common_values=105)
+print('--- German incl. augsburg vs translation ---')
+chi_squared(german_with_augsburg, french_ue, most_common_values=105)
+print('--- German without augsburg vs translation ---')
+chi_squared(german_without_augsburg, french_ue, most_common_values=105)
 print('--- french vs translation ---')
 chi_squared(french_orig, french_ue, most_common_values=105)
-print('--- German vs french ---')
-chi_squared(german, french_orig, most_common_values=105)
+print('--- German without augsburg vs french ---')
+chi_squared(german_without_augsburg, french_orig, most_common_values=105)
+print('--- German with augsburg vs french ---')
+chi_squared(german_with_augsburg, french_orig, most_common_values=105)
+print('---')
 
 
